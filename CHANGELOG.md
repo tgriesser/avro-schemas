@@ -1,8 +1,8 @@
 # Change Log
 
-All notable changes to the "avro-schemas" extension will be documented in this file.
+## 1.0.1
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+- Remove unused "activationEvents" field in package.json
 
 ## 1.0.0
 

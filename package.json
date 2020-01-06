@@ -17,9 +17,6 @@
   "categories": [
     "Programming Languages"
   ],
-  "activationEvents": [
-    "*"
-  ],
   "contributes": {
     "configuration": {
       "title": "Apache Avro Schema"

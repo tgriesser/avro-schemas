@@ -1,0 +1,41 @@
+{
+  "name": "avro-schemas",
+  "displayName": "Avro Schemas (.avsc)",
+  "description": "Autocompletion / Validation for Apache Avro Schemas (.avsc)",
+  "version": "1.0.0",
+  "author": {
+    "name": "Tim Griesser",
+    "url": "https://github.com/tgriesser"
+  },
+  "repository": {
+    "url": "https://github.com/tgriesser/avro-schemas"
+  },
+  "engines": {
+    "vscode": ">=1.0.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "activationEvents": [
+    "*"
+  ],
+  "contributes": {
+    "configuration": {
+      "title": "Apache Avro Schema"
+    },
+    "jsonValidation": [
+      {
+        "fileMatch": "*.avsc",
+        "url": "http://json.schemastore.org/avro-avsc"
+      }
+    ],
+    "languages": [
+      {
+        "id": "jsonc",
+        "filenamePatterns": [
+          "*.avsc"
+        ]
+      }
+    ]
+  }
+}
